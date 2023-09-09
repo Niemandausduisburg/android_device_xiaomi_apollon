@@ -2,5 +2,37 @@
   {
     "repository": "android_device_xiaomi_sm8250-common",
     "target_path": "device/xiaomi/sm8250-common"
+    "branch": "RisingOS-13"
+    "remote": "Niemandausduisburg"
+  },
+  {
+    "repository": "android_kernel_xiaomi_sm8250",
+    "target_path": "kernel/xiaomi/sm8250"
+    "branch": "lineage-20"
+    "remote": "Niemandausduisburg"
+  },
+  {
+    "repository": "proprietary_vendor_xiaomi_apollon",
+    "target_path": "vendor/xiaomi/apollon"
+    "branch": "lineage-20"
+    "remote": "Niemandausduisburg"
+  },
+  {
+    "repository": "proprietary_vendor_xiaomi_sm8250-common",
+    "target_path": "vendor/xiaomi/sm8250-common"
+    "branch": "lineage-20"
+    "remote": "Niemandausduisburg"
+  },
+  {
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+    "branch": "lineage-20"
+    "remote": "LineageOS"
+  },
+    {
+    "repository": "vendor_xiaomi-firmware",
+    "target_path": "vendor/xiaomi-firmware"
+    "branch": "thirteen"
+    "remote": "https://gitlab.pixelexperience.org/"
   }
 ]
