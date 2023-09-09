@@ -14,6 +14,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from apollon device
 $(call inherit-product, device/xiaomi/apollon/device.mk)
 
+# riceDroid flags
+RISING_CHIPSET := sm8250
+RISING_MAINTAINER := Niemandausduisburg
+TARGET_USE_PIXEL_FINGERPRINT := false
+RISING_PACKAGE_TYPE := AOSP
+
 PRODUCT_NAME := lineage_apollon
 PRODUCT_DEVICE := apollon
 PRODUCT_MANUFACTURER := Xiaomi
