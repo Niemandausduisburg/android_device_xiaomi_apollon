@@ -32,3 +32,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # Inherit from the proprietary version
 include vendor/xiaomi/apollon/BoardConfigVendor.mk
+
+# Inherit from Xiaomi-Firmware
+include vendor/firmware/apollon/firmware.mk
