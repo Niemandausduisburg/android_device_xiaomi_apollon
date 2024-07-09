@@ -14,6 +14,9 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 # Inherit from apollon device
 $(call inherit-product, device/xiaomi/apollon/device.mk)
 
+# Use own keys for signing builds
+$(call inherit-product, vendor/voltage-priv/keys/keys.mk)
+
 # MindtheGapps
 ifeq ($(BUILD_GAPPS),true)
 $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
