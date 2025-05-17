@@ -13,7 +13,7 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_apollon
+$(call soong_config_set,libinit,vendor_init_lib,init_xiaomi_apollon)
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_apollon
 
 # Kernel
